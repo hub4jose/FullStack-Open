@@ -1,0 +1,52 @@
+h1 {
+  color: green;
+  font-style: italic;
+}
+
+.note {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  background-color: #5778b6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.navLink {
+  color: white;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.navLink:hover {
+  border: 1px solid rgb(44, 107, 224);
+}
